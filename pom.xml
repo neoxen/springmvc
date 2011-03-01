@@ -6,8 +6,8 @@
     <artifactId>appdemomvc</artifactId>
     <packaging>war</packaging>
     <version>1.0</version>
-    <name>AppFuse Spring MVC Application</name>
-    <url>http://www.mycompany.com</url>
+    <name>AppFuse Spring MVC Demo Application</name>
+    <url>http://www.penho.com</url>
 
     <prerequisites>
         <maven>2.2.1</maven>
@@ -37,7 +37,7 @@
                 <artifactId>appfuse-maven-plugin</artifactId>
                 <version>${appfuse.version}</version>
                 <configuration>
-		  <trunk>https://svn.java.net/svn/appfuse~svn/</trunk>
+		            <trunk>https://svn.java.net/svn/appfuse~svn/</trunk>
                     <genericCore>${amp.genericCore}</genericCore>
                     <fullSource>${amp.fullSource}</fullSource>
                 </configuration>
@@ -693,7 +693,7 @@
         </dependency>
     </dependencies>
 
-    <reporting>
+    <!--reporting>
         <plugins>
             <plugin>
                 <artifactId>maven-changes-plugin</artifactId>
@@ -723,7 +723,7 @@
                 <artifactId>maven-surefire-report-plugin</artifactId>
             </plugin>
         </plugins>
-    </reporting>
+    </reporting-->
 
     <profiles>
         <profile>

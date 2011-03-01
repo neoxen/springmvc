@@ -39,3 +39,6 @@ Thumbs.db
 *.iml
 *.ipr
 *.iws
+
+# untrack maven target folder
+target/
